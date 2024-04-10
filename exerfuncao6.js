@@ -6,7 +6,7 @@ function calcularAreaEPerimetro() {
         console.log("Por favor, forneça um raio válido.");
         return;
     }
-
+    
     const pi = 3.14;
     const area = pi * raio * raio;
     const perimetro = 2 * pi * raio;
